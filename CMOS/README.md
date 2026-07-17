@@ -126,18 +126,58 @@ Next moving to the PCB design of the circuits.
 
 ---
 
-### PCB Design 
+### PCB Design on KiCad
 
 All 2, 4, 6, 9 node implementations have been made on a single PCB layout as seen below.
-<p align="center">
-  <img src="../images/4node_circuit.jpg" width="45%" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="../images/4node_output.jpg" alt="IC 7414 Pinout" width="45%" />
-</p>
 
-<p align="center">
-  <b>Fig. 1.</b> 4 Node Maxcut Circuit on Breadboard
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Fig. 2.</b> Output waveforms for the four nodes on Oscilloscope.
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="../images/2469node_schematic" width="100%"><br><br>
+      <b>Fig. 1.</b> 2, 4, 6 and 9-Node Schematic
+    </td>
+    <td align="center" width="50%">
+      <img src="../images/2469node_layout" width="100%"><br><br>
+      <b>Fig. 2.</b> Corresponding Layout
+    </td>
+  </tr>
+</table>
 
+16 node implementation's schematic and layout is as seen below.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="../images/16node_schematic" width="100%"><br><br>
+      <b>Fig. 1.</b> 16 Node Schematic
+    </td>
+    <td align="center" width="50%">
+      <img src="../images/16node_layout" width="100%"><br><br>
+      <b>Fig. 2.</b> Corresponding Layout
+    </td>
+  </tr>
+</table>
+
+3D Views of the fabricated PCBs are as seen below.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="../images/2469_3d" width="100%"><br><br>
+      <b>Fig. 1.</b> 2, 4, 6 and 9-Node PCB 3D view
+    </td>
+    <td align="center" width="50%">
+      <img src="../images/16node_3d" width="100%"><br><br>
+      <b>Fig. 2.</b> 16 Node PCB 3D view
+    </td>
+  </tr>
+</table>
+
+## Future Work
+
+The current work focuses on the design and simulation of oscillator-based neuromorphic circuits. The next phase of the project includes:
+
+- Fabrication and assembly of the designed PCBs.
+- Experimental validation and characterization of the oscillator networks.
+- Performance evaluation of synchronization-based logic and optimization circuits.
+- Migration of the validated designs toward **ASIC tapeout**, enabling on-chip fabrication and evaluation of oscillator-based neuromorphic hardware.
