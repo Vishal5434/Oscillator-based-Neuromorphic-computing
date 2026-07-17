@@ -76,20 +76,46 @@
 
 #### - 4x2 (8 Node)
 
-<p align="center">
-  <img src="../images/8node_circuit.jpg" width="20%" />
-  &nbsp;
-  <img src="../images/8node_output_1.jpg" width="20%" />
-  &nbsp;
-  <img src="../images/8node_output_2.jpg" width="20%" />
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="../images/8node_circuit.jpg" width="300"><br>
+      <b>Fig. 1.</b><br>
+      Circuit on Breadboard
+    </td>
+    <td align="center">
+      <img src="../images/8node_output_1.jpg" width="300"><br>
+      <b>Fig. 2.</b><br>
+      Output waveforms of four of the eight nodes
+    </td>
+    <td align="center">
+      <img src="../images/8node_output_2.jpg" width="300"><br>
+      <b>Fig. 3.</b><br>
+      Output waveforms of the other four nodes
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <b>Fig. 1.</b> Circuit on Breadboard
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Fig. 2.</b> Output waveforms of four of the eight nodes
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <b>Fig. 3.</b> Output waveforms of the other four nodes
-</p>
+#### - 4x4 (16 Node)
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="../images/16node_circuit.jpg" width="300"><br>
+      <b>Fig. 1.</b><br>
+      Circuit on Breadboard
+    </td>
+    <td align="center">
+      <img src="../images/16node_output_1.jpg" width="300"><br>
+      <b>Fig. 2.</b><br>
+      Output waveforms of four of the sixteen nodes
+    </td>
+    <td align="center">
+      <img src="../images/16node_output_2.jpg" width="300"><br>
+      <b>Fig. 3.</b><br>
+      Output waveforms of the other four nodes
+    </td>
+  </tr>
+</table>
 
+Due to the limit of no. of outputs that can be seen on the oscilloscope, we acutally saw the results by changing the outputs with all the sixteen different nodes and saw only 4 at a time, However the results are as expected for the problem.
