@@ -28,7 +28,7 @@ As conventional CMOS technology approaches its physical scaling limits, there is
 | Directory | Description |
 | :-------- | :---------- |
 | [`vo2/`](./vo2/) | VO₂ relaxation oscillator circuits, simulations, and synchronization-based applications. |
-| [`cmos/`](./cmos/) | CMOS Schmitt Trigger oscillator circuits, logic gate implementations, and optimization applications. |
+| [`cmos/`](./CMOS/) | CMOS Schmitt Trigger oscillator circuits, logic gate implementations, and optimization applications. |
 
 ---
 
