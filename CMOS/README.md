@@ -18,3 +18,8 @@
 ---
 
 ### Schmitt trigger (IC 7414) used for Hysteresis
+<p align="center">
+  <img src="images/SchmittTriggerOscillator.png" width="45%" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/images.png" width="45%" />
+</p>
