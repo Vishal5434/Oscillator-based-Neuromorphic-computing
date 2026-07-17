@@ -119,3 +119,25 @@
 </table>
 
 Due to the limit of no. of outputs that can be seen on the oscilloscope, we acutally saw the results by changing the outputs with all the sixteen different nodes and saw only 4 at a time, However the results are as expected for the problem.
+
+Also a lot of voltage fluctuations have been seen on this 16 node breadboard implementation because of the increased jumper wire path, parasitics of the breadboard and other complications.
+
+Next moving to the PCB design of the circuits.
+
+---
+
+### PCB Design 
+
+All 2, 4, 6, 9 node implementations have been made on a single PCB layout as seen below.
+<p align="center">
+  <img src="../images/4node_circuit.jpg" width="45%" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="../images/4node_output.jpg" alt="IC 7414 Pinout" width="45%" />
+</p>
+
+<p align="center">
+  <b>Fig. 1.</b> 4 Node Maxcut Circuit on Breadboard
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Fig. 2.</b> Output waveforms for the four nodes on Oscilloscope.
+</p>
+
