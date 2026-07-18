@@ -1,0 +1,47 @@
+`include "constants.vams"
+`include "disciplines.vams"
+
+module VO2_device(p, n);
+
+    inout p, n;
+    electrical p, n;
+
+    parameter real RHRS = 2100.0;
+    parameter real RLRS = 50.0;
+    parameter real VT1  = 12.0;
+    parameter real VT2  = 4.0;
+    parameter real alpha = 0.05;
+    parameter real tau = 1e-9;
+
+    real h0;
+    real RD;
+    real VD;
+    real ID;
+    real dh0dt;
+
+    analog begin
+
+        VD = V(p, n);
+
+        if (VD >= VT1)
+            dh0dt = (1.0 - h0)/tau;
+        else if (VD <= VT2)
+            dh0dt = (0.0 - h0)/tau;
+        else
+            dh0dt = 0.0;
+
+        h0 = idt(dh0dt, 0.0);
+
+        if (h0 > 1.0) h0 = 1.0;
+        if (h0 < 0.0) h0 = 0.0;
+
+        RD = (RHRS * RLRS) /
+             (RHRS * h0 + RLRS * (1.0 - h0));
+
+        ID = VD / RD;
+
+        I(p, n) <+ ID;
+
+    end
+
+endmodule
