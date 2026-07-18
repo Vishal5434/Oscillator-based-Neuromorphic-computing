@@ -35,11 +35,24 @@ As conventional CMOS technology approaches its physical scaling limits, there is
 ## Tools
 
 - Cadence Virtuoso
-- Spectre Simulator
+- KiCad
 - Verilog-A
 
 ---
 
 ## References
 
-The research papers and resources used throughout this project are provided within the respective implementation directories.
+
+1. D. E. Nikonov *et al.*, **"Coupled Oscillator Networks for Neuromorphic Computing,"** *Nature Electronics*.
+
+2. M. Jerry *et al.*, **"Oscillatory Neural Networks Based on VO₂ Relaxation Oscillators,"** *Scientific Reports*, 2017.
+
+3. J. Wang *et al.*, **"Phase Transition Devices for Neuromorphic Computing,"** *Nature Materials*.
+
+4. S. Datta, **"Physical Ising Machines for Combinatorial Optimization,"** *IEEE Journal on Exploratory Solid-State Computational Devices and Circuits*.
+
+5. Nikhil Shukla, Mohammad Khairul Bashar, *et al.*, **"Experimental Demonstration of a Reconfigurable Coupled Oscillator Platform to Solve the Max-Cut Problem,"** *IEEE Journal on Exploratory Solid-State Computational Devices and Circuits*, vol. 6, no. 2, pp. 116–121, 2020.
+
+6. Nikhil Shukla *et al.*, **"Computational Models Based on Synchronized Oscillators for Solving Combinatorial Optimization Problems,"** *arXiv preprint*, arXiv:2206.05907, 2022.
+
+7. Michel X. Goemans and David P. Williamson, **"Improved Approximation Algorithms for Maximum Cut and Satisfiability Problems Using Semidefinite Programming,"** *Journal of the ACM*, vol. 42, no. 6, pp. 1115–1145, 1995.
